@@ -1,0 +1,19 @@
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory app:title="@string/keys_header">
+
+        <Preference
+            app:key="copy_public_key"
+            app:title="@string/copy_public_key_title" />
+
+        <EditTextPreference
+            app:key="public_interlocutor_key"
+            app:title="@string/public_inter_key_title" />
+
+        <Preference
+            app:key="regenerate_keys"
+            app:title="@string/regenerate_keys_title" />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

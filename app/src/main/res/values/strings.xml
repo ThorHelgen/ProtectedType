@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Protected Type</string>
+    <!-- Settings Activity Title -->
+    <string name="title_activity_settings">Settings</string>
+
+    <!-- Preference Titles -->
+    <string name="keys_header">Ключи</string>
+
+    <!-- Keys Preferences -->
+    <string name="public_key">public_key</string>
+    <string name="private_key">private_key</string>
+    <string name="copy_public_key_title">Скопировать открытый ключ шифрования в буфер</string>
+    <string name="public_inter_key_title">Открытый ключ собеседника</string>
+    <string name="regenerate_keys_title">Сгенерировать новую пару ключей</string>
+    <string name="no_interlocutor_ex">NO_INTERLOCUTOR</string>
+
+    <!-- IME -->
+    <string name="input_method_name">Protected Type</string>
+    <string name="decrypt_action">Расшифровка</string>
+    <string name="interlocutor_required">"You must set the interlocutor key in the settings before you can enable encryption"</string>
+
+</resources>
